@@ -1,0 +1,28 @@
+{
+  "name": "react-native-weekday-picker",
+  "version": "0.0.1",
+  "description": "A weekday picker for react-native and expo. Lets users pick days of the week, in a repeating alarm clock fashion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuzdogan/react-native-weekday-picker.git"
+  },
+  "keywords": [
+    "react-native",
+    "weekday",
+    "picker",
+    "daypicker",
+    "repeat",
+    "day",
+    "alarm"
+  ],
+  "author": "kuzdogan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kuzdogan/react-native-weekday-picker/issues"
+  },
+  "homepage": "https://github.com/kuzdogan/react-native-weekday-picker#readme"
+}
