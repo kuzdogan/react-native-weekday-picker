@@ -6,7 +6,6 @@ import {
   TouchableOpacity
 } from 'react-native';
 import Day from './Day';
-import { MaterialIcons } from '@expo/vector-icons';
 
 WeekdayPicker.defaultProps = {
     onChange: null,
