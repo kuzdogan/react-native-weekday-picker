@@ -15,7 +15,7 @@ WeekdayPicker.defaultProps = {
 }
 
 export default function WeekdayPicker(props){
-  let { onChange, style, dayStyle, days } = props;
+  let { onChange, style, dayStyle, dayInactiveStyle, days, activeBackgroundColor, textColor } = props;
   /**
    * Function for toggling the day
    * 
@@ -38,9 +38,11 @@ export default function WeekdayPicker(props){
     daysContainer.push(<Day 
       key = {i}
       toggleDay={toggleDay} 
-      day={day} 
-      style={[styles.day, dayStyle]} 
-      activeTextColor='38dfe1'
+      day={day}
+      activeBackgroundColor={activeBackgroundColor}
+      style={[styles.day, dayStyle]}
+      inactiveStyle={dayInactiveStyle}
+      activeTextColor={props.textColor?textColor: '#38dfe1'}
       isActive={1 === days[day]} // Pass boolean
       />)
   });
