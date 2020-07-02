@@ -11,6 +11,7 @@ export default function Day(props) {
     <TouchableOpacity 
       style={ [styles.default,props.style , props.isActive ? [styles.active, {backgroundColor:props.activeBackgroundColor}] : [styles.inactive, props.inactiveStyle]]}
       onPress={() => props.toggleDay(props.day)}
+      disabled={props.disabled}
     >
       <Text style={props.isActive ? [styles.activeText, {color:props.activeTextColor}] : styles.inactiveText}>
         {daysMapping[props.day]}
