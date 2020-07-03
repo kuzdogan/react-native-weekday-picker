@@ -1,6 +1,6 @@
 {
   "name": "react-native-weekday-picker",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A weekday picker for react-native and expo. Lets users pick days of the week, in a repeating alarm clock fashion",
   "main": "index.js",
   "scripts": {
